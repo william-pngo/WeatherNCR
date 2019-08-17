@@ -25,7 +25,23 @@ class ChangeCityViewController: UIViewController, UIPickerViewDelegate, UIPicker
     
     var delegate : ChangeCityDelegate?
     
-    var cityArray = ["Manila", "Makati", "Pasig"]
+    var cityArray = ["Manila",
+                     "Quezon",
+                    "Caloocan",
+                    "Las Piñas",
+                    "Makati",
+                    "Malabon",
+                    "Mandaluyong",
+                    "Marikina",
+                    "Muntinlupa",
+                    "Navotas",
+                    "Parañaque",
+                    "Pasay",
+                    "Pasig",
+                    "San Juan",
+                    "Taguig",
+                    "Valenzuela"
+                    ]
     
     var citySelect : String = ""
 
